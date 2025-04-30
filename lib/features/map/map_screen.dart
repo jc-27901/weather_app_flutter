@@ -1,19 +1,22 @@
 // map_screen.dart
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
+import 'package:weather_app_flutter/core/extensions/string_extensions.dart';
 import 'dart:ui';
-import 'package:weather_app_flutter/features/map/widgets/back_button.dart';
-import 'package:weather_app_flutter/features/map/widgets/control_buttons.dart';
-import 'package:weather_app_flutter/features/map/widgets/current_location_container.dart';
-import 'package:weather_app_flutter/features/map/widgets/nearby_location_container.dart';
-import 'package:weather_app_flutter/features/map/widgets/pulsating_container.dart';
-import 'package:weather_app_flutter/features/map/widgets/weather_icon_condition.dart';
-import 'package:weather_app_flutter/features/map/widgets/weather_info.dart';
 import 'dart:math' as math;
 import '../../data/models/weather_location_dm.dart';
 import '../../data/services/open_weather_service.dart';
+part 'widgets/back_button.dart';
+part 'widgets/control_buttons.dart';
+part 'widgets/current_location_container.dart';
+part 'widgets/nearby_location_container.dart';
+part 'widgets/pulsating_container.dart';
+part 'widgets/weather_detail_tile.dart';
+part 'widgets/weather_icon_condition.dart';
+part 'widgets/weather_info.dart';
 
 class MapScreen extends StatefulWidget {
   final WeatherData weatherData;

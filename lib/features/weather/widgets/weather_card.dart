@@ -1,9 +1,5 @@
-import 'dart:ui';
+part of '../weather_screen.dart';
 
-import 'package:flutter/material.dart';
-import 'package:flutter_animate/flutter_animate.dart';
-import 'package:weather_app_flutter/core/extensions/string_extensions.dart';
-import '../../../data/services/open_weather_service.dart';
 
 class WeatherCard extends StatelessWidget {
   const WeatherCard({super.key, required this.currentWeather});

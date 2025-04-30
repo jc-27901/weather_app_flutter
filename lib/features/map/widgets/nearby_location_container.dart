@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_animate/flutter_animate.dart';
+part of '../map_screen.dart';
 
 class NearbyLocationContainer extends StatelessWidget {
   const NearbyLocationContainer(

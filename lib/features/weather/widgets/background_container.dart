@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart';
-
+part of '../weather_screen.dart';
 class BackgroundContainer extends StatelessWidget {
   const BackgroundContainer(
       {super.key, required this.isDaytime, required this.weatherCondition});

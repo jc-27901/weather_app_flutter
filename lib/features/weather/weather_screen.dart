@@ -1,30 +1,35 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:intl/intl.dart';
+import 'package:weather_app_flutter/core/extensions/string_extensions.dart';
 import 'package:weather_app_flutter/core/views/base_error_view.dart';
 import 'package:weather_app_flutter/core/views/base_loading_view.dart';
 import 'package:weather_app_flutter/features/map/map_screen.dart';
 import 'package:weather_app_flutter/features/weather/bloc/weather_cubit.dart';
-import 'package:weather_app_flutter/features/weather/widgets/background_container.dart';
-import 'package:weather_app_flutter/features/weather/widgets/five_day_forecast_widget.dart';
-import 'package:weather_app_flutter/features/weather/widgets/hourly_forecast_widget.dart';
-import 'package:weather_app_flutter/features/weather/widgets/weather_app_bar.dart';
-import 'package:weather_app_flutter/features/weather/widgets/weather_card.dart';
-import 'package:weather_app_flutter/features/weather/widgets/weather_details_grid.dart';
 import '../../core/views/base_bottom_navbar.dart';
 import '../../core/views/rain_painter.dart';
 import '../../core/views/snow_painter.dart';
 import '../../data/services/open_weather_service.dart';
+part 'widgets/background_container.dart';
+part 'widgets/five_day_forecast_widget.dart';
+part 'widgets/hourly_forecast_widget.dart';
+part 'widgets/weather_app_bar.dart';
+part 'widgets/weather_card.dart';
+part 'widgets/weather_details_grid.dart';
 
-class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
+
+class WeatherScreen extends StatefulWidget {
+  const WeatherScreen({super.key});
 
   @override
-  State<HomeScreen> createState() => _HomeScreenState();
+  State<WeatherScreen> createState() => _WeatherScreenState();
 }
 
-class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
+class _WeatherScreenState extends State<WeatherScreen> with TickerProviderStateMixin {
   /// text controller.
   late final TextEditingController _searchController;
   late final FocusNode _searchFocusNode;

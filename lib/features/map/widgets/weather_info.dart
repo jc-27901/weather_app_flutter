@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+part of '../map_screen.dart';
 
 class WeatherInfo extends StatelessWidget {
   const WeatherInfo(

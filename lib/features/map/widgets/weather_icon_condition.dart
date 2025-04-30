@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:weather_app_flutter/core/extensions/string_extensions.dart';
+part of '../map_screen.dart';
 
 /// A widget that displays a weather icon and description based on a given condition.
 class WeatherIconCondition extends StatelessWidget {

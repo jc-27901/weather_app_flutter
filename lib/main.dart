@@ -31,7 +31,7 @@ class WeatherApp extends StatelessWidget {
         ),
       ),
       themeMode: ThemeMode.system,
-      home: const HomeScreen(),
+      home: const WeatherScreen(),
     );
   }
 }
