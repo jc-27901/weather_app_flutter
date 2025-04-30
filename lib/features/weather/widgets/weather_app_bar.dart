@@ -1,9 +1,8 @@
 import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:intl/intl.dart';
-import 'package:weather_app_flutter/core/services/open_weather_service.dart';
+import '../../../data/services/open_weather_service.dart';
 
 class WeatherAppBar extends StatelessWidget {
   const WeatherAppBar(

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:weather_app_flutter/core/services/open_weather_service.dart';
+
+import '../../../data/services/open_weather_service.dart';
 
 
 class CurrentLocationContainer extends StatelessWidget {

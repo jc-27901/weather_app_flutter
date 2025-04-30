@@ -5,7 +5,8 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'package:intl/intl.dart';
 import 'package:weather_app_flutter/core/extensions/string_extensions.dart';
 
-import '../../../core/services/open_weather_service.dart';
+import '../../../data/services/open_weather_service.dart';
+
 
 class FiveDayForecastWidget extends StatelessWidget {
   const FiveDayForecastWidget({super.key, required this.dailyForecasts});

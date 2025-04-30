@@ -2,7 +2,7 @@ import 'package:flutter/material.dart' show immutable;
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:permission_handler/permission_handler.dart';
-import '../../../core/services/open_weather_service.dart';
+import '../../../data/services/open_weather_service.dart';
 
 part 'weather_state.dart';
 

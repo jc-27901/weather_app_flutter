@@ -12,10 +12,10 @@ import 'package:weather_app_flutter/features/weather/widgets/hourly_forecast_wid
 import 'package:weather_app_flutter/features/weather/widgets/weather_app_bar.dart';
 import 'package:weather_app_flutter/features/weather/widgets/weather_card.dart';
 import 'package:weather_app_flutter/features/weather/widgets/weather_details_grid.dart';
-import '../../core/services/open_weather_service.dart';
 import '../../core/views/base_bottom_navbar.dart';
 import '../../core/views/rain_painter.dart';
 import '../../core/views/snow_painter.dart';
+import '../../data/services/open_weather_service.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

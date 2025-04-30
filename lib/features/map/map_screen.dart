@@ -12,8 +12,8 @@ import 'package:weather_app_flutter/features/map/widgets/pulsating_container.dar
 import 'package:weather_app_flutter/features/map/widgets/weather_icon_condition.dart';
 import 'package:weather_app_flutter/features/map/widgets/weather_info.dart';
 import 'dart:math' as math;
-import '../../core/services/open_weather_service.dart';
 import '../../data/models/weather_location_dm.dart';
+import '../../data/services/open_weather_service.dart';
 
 class MapScreen extends StatefulWidget {
   final WeatherData weatherData;

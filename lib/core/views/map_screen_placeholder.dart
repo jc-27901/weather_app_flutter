@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'dart:ui';
 
-import '../services/open_weather_service.dart';
+import '../../data/services/open_weather_service.dart';
+
 
 
 class PlaceHolderMapScreen extends StatelessWidget {

@@ -1,10 +1,8 @@
 import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:intl/intl.dart';
-
-import '../../../core/services/open_weather_service.dart';
+import '../../../data/services/open_weather_service.dart';
 
 class HourlyForecastWidget extends StatelessWidget {
   const HourlyForecastWidget({super.key, required this.hourlyData});
