@@ -29,7 +29,7 @@ class WeatherScreen extends StatefulWidget {
   State<WeatherScreen> createState() => _WeatherScreenState();
 }
 
-class _WeatherScreenState extends State<WeatherScreen> with TickerProviderStateMixin {
+class _WeatherScreenState extends State<WeatherScreen> {
   /// text controller.
   late final TextEditingController _searchController;
   late final FocusNode _searchFocusNode;
