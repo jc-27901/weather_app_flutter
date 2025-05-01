@@ -132,6 +132,8 @@ The application uses `flutter_map` (based on Leaflet.js) instead of Google Maps 
 
 ## Screenshots
 
+**Demo Video Link**: https://drive.google.com/drive/folders/1EoHVkBAVB48mqTCXeopXerKkhmC1oHcE?usp=sharing
+
 _![img.png](img.png)_
 _![img_1.png](img_1.png)_
 
