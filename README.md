@@ -88,6 +88,8 @@ The application follows the BLoC/Cubit pattern for state management:
    ```bash
    flutter run
    ```
+### APK Link
+   - https://github.com/jc-27901/weather_app_flutter/releases/download/untagged-4084e82e13218a73c483/app-release.apk
 
 ## API Key Security
 
